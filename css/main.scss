@@ -1,0 +1,33 @@
+$mainColor: #3E60B5;
+$mainAccentColor: #88A6F5;
+$mainBackgroundColor: #E5E5E5;;
+$footerBackgroudColor: #293E55;
+
+$additionalBackgroundColor: #FFFFFF;
+$additionalColor: #D881CA;
+$additionalAccentColor: #FCE3ED;
+
+$mainTextColor: #333333;
+$additionalTextColor: #828282;
+
+$mainFont: 'Rubik', sans-serif; 
+// $HeaderFont: ;
+
+$containerWidth: 1600px;
+
+// $mainTitleFontSize: 80px;
+// $titleFontSize: 50px;
+// $mainTextFontSize: 26px;
+// $additionalTextFontSize: 18px;
+
+@import "https://cdnjs.cloudfare.com/ajax/normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+@import "layout";
+@import "./components/header.scss";
+@import "./components/sidebar.scss";
+@import "./components/description.scss";
+@import "./components/router.scss";
+@import "./components/button.scss";
+@import "./components/frame.scss";

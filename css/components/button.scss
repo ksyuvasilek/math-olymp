@@ -1,0 +1,28 @@
+.btn {
+    position: relative;
+    width: 388px;
+    height: 61px;
+    background: linear-gradient(94.43deg, $additionalColor 9.07%, #C876D6 68.07%), linear-gradient(0deg, $additionalColor, $additionalColor), linear-gradient(92.59deg, #E898DB 10.1%, #CD71BF 93.52%);
+    border-radius: 79px;
+    color: $additionalBackgroundColor;
+
+    &__text {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    &__introduce {
+        padding: 20px 90px 20px 60px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 81px;
+        height: 82px;
+        left: -33px;
+        top: -28px;
+        background: url("/img/button-decoration.svg");
+    }
+
+}
