@@ -1,0 +1,48 @@
+.tasks {
+
+    &__container {
+        padding: 0 120px 0 80px;
+        margin-bottom: 120px;
+        display: block;
+    }
+
+    &__main-title {
+        margin-bottom: 66px;
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__title {
+        // padding: 0 131px 0 60px;
+        flex-grow: 1;
+        padding-left: 60px;
+    }
+
+    &__blocks {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        margin-bottom: 94px;
+    }
+
+    &__block {
+
+        &--meaning {
+            background: $mainAccentColor;
+            border-radius: 4px;
+            width: 420px;
+            height: 20px;
+            margin-bottom: 10px;
+        }
+
+        &--answer {
+            background: $additionalAccentColor;
+            border-radius: 4px;
+            width: 420px;
+            height: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}

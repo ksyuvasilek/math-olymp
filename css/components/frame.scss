@@ -1,27 +1,68 @@
 .frame {
+
+    &__img {
+        border-radius: 37px;
+        border: 10px solid $mainAccentColor;
+        border-image: linear-gradient(107.18deg, $mainAccentColor 38.68%, #7573ED 75.27%);
+        border-image-slice: 1;
+        border-image-source: none;
+        width: 420px;
+        height: 450px;
+        object-fit: cover;
+    }
     
     &__avatar {
         position: relative;
-
-        &__img {
-            border-radius: 37px;
-            border: 10px solid $mainAccentColor;
-            width: 420px;
-            height: 450px;
-            object-fit: cover;
-        }
 
         &::before {
             content: "";
             position: absolute;
             z-index: -1;
-            width: 410px;
-            height: 412px;
-            left: 0px;
-            top: 40px;
+            width: 430px;
+            height: 420px;
+            left: -11px;
+            top: 31px;
             background: $mainColor;
             border-radius: 37px;
             transform: rotate(-6.93deg);
+        }
+    }
+
+    &__task {
+        position: relative;
+        border-radius: 37px;
+        border: 10px solid $mainAccentColor;
+        border-image: linear-gradient(107.18deg, $mainAccentColor 38.68%, #7573ED 75.27%);
+        border-image-slice: 1;
+        border-image-source: none;
+        background: $additionalBackgroundColor;
+        width: 900px;
+        height: 327px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            width: 897.37px;
+            height: 299.14px;
+            left: -12px;
+            top: 6px;
+            background: $mainColor;
+            border-radius: 37px;
+            transform: rotate(-6.93deg);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+
+            background-image: url("/img/example.svg");
+            background-repeat: no-repeat;
+
+            width: 297.88px;
+            height: 171.98px;
+            left: -10px;
+            top: 145px;
         }
     }
 }

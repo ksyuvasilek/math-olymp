@@ -1,0 +1,31 @@
+.timetable {
+
+    &__title {
+        background: linear-gradient(107.18deg, $mainAccentColor 38.68%, #7573ED 75.27%);
+        text-align: center;
+        color: $additionalBackgroundColor;
+        padding: 13px 60px 13px 60px;
+        border-radius: 13px 13px 0 0;
+    }
+
+    &__time {
+        padding: 24px 58px 24px 58px;
+        display: grid;
+        grid-auto-flow: column;
+        text-align: center;
+        background: $additionalBackgroundColor;
+        border-radius: 0 0 13px 13px;
+    }
+
+    &__text {
+        font-size: 30px;
+        color: $mainColor;
+    }
+
+    &__column {
+
+        &:not(:last-child) {
+            border-right: 1px solid $mainBackgroundColor;
+        }
+    }
+}
