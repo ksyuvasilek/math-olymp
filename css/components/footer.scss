@@ -8,7 +8,7 @@
     &__content {
         display: flex;
         padding-bottom: 160px;
-        border-bottom: 1px solid $additionalBackgroundColor;
+        border-bottom: 1px solid $secondaryBackgroundColor;
         margin-bottom: 30px;
     }
 
@@ -31,12 +31,12 @@
 
     &-menu__title {
         margin-bottom: 60px;
-        color: $additionalBackgroundColor;
+        color: $secondaryBackgroundColor;
     }
 
     &-menu__item {
-        color: $additionalBackgroundColor;
-        font-size: 18px;
+        color: $secondaryBackgroundColor;
+        font-size: $textFontSize;
         font-weight: 400;
 
         &:not(:last-child) {
@@ -60,13 +60,13 @@
     }
 
     &__text {
-        font-size: 14px;
-        color: $additionalBackgroundColor;
+        font-size: $secondaryTextFontSize;
+        color: $secondaryBackgroundColor;
     }
 
     &__copyright {
         margin-right: 682px;
-        font-size: 14px;
-        color: $additionalBackgroundColor;
+        font-size: $secondaryTextFontSize;
+        color: $secondaryBackgroundColor;
     }
 }

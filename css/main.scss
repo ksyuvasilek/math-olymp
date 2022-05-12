@@ -3,12 +3,12 @@ $mainAccentColor: #88A6F5;
 $mainBackgroundColor: #E5E5E5;;
 $footerBackgroudColor: #293E55;
 
-$additionalBackgroundColor: #FFFFFF;
-$additionalColor: #D881CA;
-$additionalAccentColor: #FCE3ED;
+$secondaryBackgroundColor: #FFFFFF;
+$secondaryColor: #D881CA;
+$secondaryAccentColor: #FCE3ED;
 
 $mainTextColor: #333333;
-$additionalTextColor: #828282;
+$secondaryTextColor: #828282;
 
 $borderColor: #8396F3;
 $lineColor: #B5B5B5;
@@ -17,7 +17,7 @@ $indicatorColor: #616E81;
 $gradientColor: #7573ED;
 $routerColor: #BDBDBD;
 $buttonGradientColor: #E898DB;
-$buttonAdditionalGradientColor: #CD71BF;
+$buttonSecondaryGradientColor: #CD71BF;
 $buttonMainGradientColor: #C876D6;
 
 $mainFont: 'Rubik', sans-serif; 
@@ -25,10 +25,14 @@ $mainFont: 'Rubik', sans-serif;
 
 $containerWidth: 1600px;
 
-// $mainTitleFontSize: 80px;
-// $titleFontSize: 50px;
-// $mainTextFontSize: 26px;
-// $additionalTextFontSize: 18px;
+$mainTitleFontSize: 80px;
+$titleFontSize: 50px;
+$mainTextFontSize: 26px;
+$textFontSize: 18px;
+$secondaryTextFontSize: 14px;
+$indicatorFontSize: 11px;
+$routerFontSize: 15px;
+$footerFontSize: 30px;
 
 @import "https://cdnjs.cloudfare.com/ajax/normalize.css";
 

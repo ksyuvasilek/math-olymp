@@ -2,9 +2,9 @@
     position: relative;
     width: 388px;
     height: 61px;
-    background: linear-gradient(94.43deg, $additionalColor 9.07%, $buttonMainGradientColor 68.07%), linear-gradient(0deg, $additionalColor, $additionalColor), linear-gradient(92.59deg, $buttonGradientColor 10.1%, $buttonAdditionalGradientColor 93.52%);
+    background: linear-gradient(94.43deg, $secondaryColor 9.07%, $buttonMainGradientColor 68.07%), linear-gradient(0deg, $secondaryColor, $secondaryColor), linear-gradient(92.59deg, $buttonGradientColor 10.1%, $buttonSecondaryGradientColor 93.52%);
     border-radius: 79px;
-    color: $additionalBackgroundColor;
+    color: $secondaryBackgroundColor;
 
     &__text {
         display: inline;

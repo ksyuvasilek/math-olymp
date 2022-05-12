@@ -6,7 +6,7 @@
     }
 
     &__text {
-        font-size: 15px;
+        font-size: $routerFontSize;
         letter-spacing: 0.06em;
         color: $routerColor;
     }

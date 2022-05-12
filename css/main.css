@@ -325,7 +325,7 @@ p {
   border-radius: 13px 13px 0 0;
 }
 .timetable__time {
-  padding: 24px 58px 24px 58px;
+  padding: 24px 50px 24px 50px;
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;

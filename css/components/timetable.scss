@@ -3,22 +3,22 @@
     &__title {
         background: linear-gradient(107.18deg, $mainAccentColor 38.68%, $gradientColor 75.27%);
         text-align: center;
-        color: $additionalBackgroundColor;
+        color: $secondaryBackgroundColor;
         padding: 13px 60px 13px 60px;
         border-radius: 13px 13px 0 0;
     }
 
     &__time {
-        padding: 24px 58px 24px 58px;
+        padding: 24px 50px 24px 50px;
         display: grid;
         grid-auto-flow: column;
         text-align: center;
-        background: $additionalBackgroundColor;
+        background: $secondaryBackgroundColor;
         border-radius: 0 0 13px 13px;
     }
 
     &__text {
-        font-size: 30px;
+        font-size: $footerFontSize;
         color: $mainColor;
     }
 
