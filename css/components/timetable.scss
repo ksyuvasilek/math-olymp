@@ -1,7 +1,7 @@
 .timetable {
 
     &__title {
-        background: linear-gradient(107.18deg, $mainAccentColor 38.68%, #7573ED 75.27%);
+        background: linear-gradient(107.18deg, $mainAccentColor 38.68%, $gradientColor 75.27%);
         text-align: center;
         color: $additionalBackgroundColor;
         padding: 13px 60px 13px 60px;

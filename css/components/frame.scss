@@ -2,10 +2,7 @@
 
     &__img {
         border-radius: 37px;
-        border: 10px solid $mainAccentColor;
-        border-image: linear-gradient(107.18deg, $mainAccentColor 38.68%, #7573ED 75.27%);
-        border-image-slice: 1;
-        border-image-source: none;
+        border: 10px solid $borderColor;
         width: 420px;
         height: 450px;
         object-fit: cover;
@@ -31,10 +28,7 @@
     &__task {
         position: relative;
         border-radius: 37px;
-        border: 10px solid $mainAccentColor;
-        border-image: linear-gradient(107.18deg, $mainAccentColor 38.68%, #7573ED 75.27%);
-        border-image-slice: 1;
-        border-image-source: none;
+        border: 10px solid $borderColor;
         background: $additionalBackgroundColor;
         width: 900px;
         height: 327px;
@@ -63,6 +57,28 @@
             height: 171.98px;
             left: -10px;
             top: 145px;
+        }
+    }
+
+    &__answer {
+        position: relative;
+        border-radius: 37px;
+        border: 10px solid $borderColor;
+        background: $additionalBackgroundColor;
+        width: 424px;
+        height: 284px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            width: 424px;
+            height: 284px;
+            left: -12px;
+            top: -10px;
+            background: $mainColor;
+            border-radius: 37px;
+            transform: rotate(-6.18deg);
         }
     }
 }

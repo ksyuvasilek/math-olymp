@@ -10,6 +10,16 @@ $additionalAccentColor: #FCE3ED;
 $mainTextColor: #333333;
 $additionalTextColor: #828282;
 
+$borderColor: #8396F3;
+$lineColor: #B5B5B5;
+$indicatorBackgroundColor: #87A6F4;
+$indicatorColor: #616E81;
+$gradientColor: #7573ED;
+$routerColor: #BDBDBD;
+$buttonGradientColor: #E898DB;
+$buttonAdditionalGradientColor: #CD71BF;
+$buttonMainGradientColor: #C876D6;
+
 $mainFont: 'Rubik', sans-serif; 
 // $HeaderFont: ;
 
@@ -33,3 +43,8 @@ $containerWidth: 1600px;
 @import "./components/frame.scss";
 @import "./components/timetable.scss";
 @import "./components/tasks.scss";
+@import "./components/interface.scss";
+@import "./components/indicator.scss";
+@import "./components/begin.scss";
+@import "./components/forms.scss";
+@import "./components/footer.scss";

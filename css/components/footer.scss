@@ -1,0 +1,72 @@
+.footer {
+
+    &__container {
+        padding: 144px 116px 30px 80px;
+        background: $footerBackgroudColor;
+    }
+
+    &__content {
+        display: flex;
+        padding-bottom: 160px;
+        border-bottom: 1px solid $additionalBackgroundColor;
+        margin-bottom: 30px;
+    }
+
+    &__logo {
+        margin-right: 318px;
+    }
+
+    &-menu {
+        flex-grow: 1;
+    }
+
+    &-menu__sections {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-menu__col {
+
+    }
+
+    &-menu__title {
+        margin-bottom: 60px;
+        color: $additionalBackgroundColor;
+    }
+
+    &-menu__item {
+        color: $additionalBackgroundColor;
+        font-size: 18px;
+        font-weight: 400;
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &-menu__link {
+
+    }
+
+    &__down {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__right {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-size: 14px;
+        color: $additionalBackgroundColor;
+    }
+
+    &__copyright {
+        margin-right: 682px;
+        font-size: 14px;
+        color: $additionalBackgroundColor;
+    }
+}

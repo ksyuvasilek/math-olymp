@@ -1,0 +1,46 @@
+.forms {
+
+    &__container {
+        padding: 0 130px 0 80px;
+        margin-bottom: 120px;
+        display: block;
+    }
+
+    &__main-title {
+        margin-bottom: 60px;
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__title {
+        padding-left: 60px;
+        flex-grow: 1;
+    }
+
+    &__blocks {
+        flex-grow: 1;
+    }
+
+    &__block {
+        padding: 20px 0 0 0;
+        border-top: 1px solid $lineColor;
+
+        &:not(:last-child) {
+            padding-bottom: 84px;
+        }
+    }
+}
+
+.block {
+    
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: space-between;
+    }
+}
